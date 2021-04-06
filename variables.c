@@ -2,9 +2,13 @@
 #include<stdlib.h>
 
 int main(){
-    printf("There was once a man named John.\n");
-    printf("He was 35 years old.\n");
-    printf("He really liked the name John.\n");
-    printf("But did not like being 35.\n");
+    char characterName[] = "Tom";
+    int characterAge = 67;
+    printf("There was once a man named %s.\n", characterName);
+    printf("He was %d years old.\n", characterAge);
+
+    characterAge = 30;
+    printf("He really liked the name %s.\n", characterName);
+    printf("But did not like being %d.\n", characterAge);
     return 0;
 }
